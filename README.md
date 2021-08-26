@@ -1,4 +1,4 @@
-#2 README
+## README
 
 This repo contains several ysoserial gadgets, transformed into the XStream serialization format.
 
@@ -8,10 +8,11 @@ Original repo: [https://github.com/frohoff/ysoserial](https://github.com/frohoff
 Some gadgets are uploaded in form of .xml, which has to be manually edited for the desired effect. Several gadgets need to be generated using the provided Java class.
 
 
-#H2 Ported gadgets
+## Ported gadgets
 
 
-```Gadget                  Author                                  Format
+```
+Gadget                  Author                                  Format
 ------                  ------                                  ------
 URLDNS                  @gebl                                   XML
 JRMPClient              @mbechler                               XML
@@ -24,7 +25,7 @@ CommonsCollections7     @scristalli, @hanyrax, @EdoardoVignati  XML
 ```
 
 
-#2 Dependencies
+## Dependencies
 
 
 In order to run Java classes, you need:

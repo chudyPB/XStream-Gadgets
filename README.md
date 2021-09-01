@@ -22,6 +22,7 @@ CommonsCollections2     @frohoff                                Java
 CommonsCollections4     @frohoff                                Java
 CommonsCollections6     @matthias_kaiser                        XML
 CommonsCollections7     @scristalli, @hanyrax, @EdoardoVignati  XML
+C3P0                    @mbechler                               XML
 ```
 
 

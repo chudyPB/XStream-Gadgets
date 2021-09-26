@@ -12,17 +12,18 @@ Some gadgets are uploaded in form of .xml, which has to be manually edited for t
 
 
 ```
-Gadget                  Author                                  Format
-------                  ------                                  ------
-URLDNS                  @gebl                                   XML
-JRMPClient              @mbechler                               XML
-AspectJWeaver           @Jang                                   XML
-CommonsBeanutils1       @frohoff                                Java
-CommonsCollections2     @frohoff                                Java
-CommonsCollections4     @frohoff                                Java
-CommonsCollections6     @matthias_kaiser                        XML
-CommonsCollections7     @scristalli, @hanyrax, @EdoardoVignati  XML
-C3P0                    @mbechler                               XML
+Gadget                  Author                                        Format      Info
+------                  ------                                        ------      ------
+URLDNS                  @gebl                                         XML
+JRMPClient              @mbechler                                     XML
+AspectJWeaver           @Jang                                         XML
+CommonsBeanutils1       @frohoff                                      Java
+CommonsCollections2     @frohoff                                      Java
+CommonsCollections4     @frohoff                                      Java
+CommonsCollections6     @matthias_kaiser                              XML
+CommonsCollections7     @scristalli, @hanyrax, @EdoardoVignati        XML
+C3P0                    @mbechler                                     XML
+FileUpload1+            @mbechler + @chudypb bypass for 1.3.1/1.3.2   XML         Fully controlled file upload even for commons-fileupload 1.3.1 and 1.3.2
 ```
 
 
